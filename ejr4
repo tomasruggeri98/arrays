@@ -1,0 +1,5 @@
+
+
+char[] palabra = { 'B', 'i', 'e', 'n', 'v', 'e', 'n', 'i', 'd', 'o', 's' };
+
+// a) 11 lugares. (de 0 a 10)
