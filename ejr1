@@ -1,0 +1,7 @@
+
+int[] vector = { 10, 100, 94, 84, 11 };
+
+for (int i  = 0; i < vector.Length; i++)
+{
+    Console.WriteLine(vector[i]);
+}
