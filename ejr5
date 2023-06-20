@@ -1,0 +1,20 @@
+
+
+
+//int[] array1 = new int[] {10, 12, 11, 17, 65, 22, 81, 102, 33, 21 };
+
+//int sum = array1.Sum();
+//Console.WriteLine(sum);
+
+// a. se necesitan 3 lineas de codigo
+
+int[] array1 = new int[10];
+for (int i = 0; i < array1.Length; i++)
+{
+    Console.Write("ingresar el valor:", i + 1);
+    array1[i] = Convert.ToInt32(Console.ReadLine());
+}
+int sum = array1.Sum();
+Console.WriteLine(sum);
+
+//b. se necesitan 6 lineas de codigo
