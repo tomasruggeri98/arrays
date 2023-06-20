@@ -1,0 +1,66 @@
+int[] array1 = new int[13];
+array1[0] = 0;
+array1[1] = 31;
+array1[2] = 28;
+array1[3] = 31;
+array1[4] = 30;
+array1[5] = 31;
+array1[6] = 30;
+array1[7] = 31;
+array1[8] = 31;
+array1[9] = 30;
+array1[10] = 31;
+array1[11] = 30;
+array1[12] = 31;
+
+Console.WriteLine("ingresar el numero del mes que desea ver la cantidad de dias:");
+int mes = int.Parse(Console.ReadLine());
+
+if (mes == 1)
+{
+    Console.WriteLine("el mes de enero tiene " + array1[1] + " dias" );
+}
+if (mes == 2)
+{
+    Console.WriteLine("el mes de febrero tiene " + array1[2] + " dias");
+}
+if (mes == 3)
+{
+    Console.WriteLine("el mes de marzo tiene " + array1[3] + " dias");
+}
+if (mes == 4)
+{
+    Console.WriteLine("el mes de abril tiene " + array1[4] + " dias");
+}
+if (mes == 5)
+{
+    Console.WriteLine("el mes de mayo tiene " + array1[5] + " dias");
+}
+if (mes == 6)
+{
+    Console.WriteLine("el mes de junio tiene " + array1[6] + " dias");
+}
+if (mes == 7)
+{
+    Console.WriteLine("el mes de julio tiene " + array1[7] + " dias");
+}
+if (mes == 8)
+{
+    Console.WriteLine("el mes de agosto tiene " + array1[8] + " dias");
+}
+if (mes == 9)
+{
+    Console.WriteLine("el mes de septiembre tiene " + array1[9] + " dias");
+}
+if (mes == 10)
+{
+    Console.WriteLine("el mes de octubre tiene " + array1[10] + " dias");
+}
+if (mes == 11)
+{
+    Console.WriteLine("el mes de noviembre tiene " + array1[11] + " dias");
+}
+if (mes == 12)
+{
+    Console.WriteLine("el mes de diciembre tiene " + array1[12] + " dias");
+}
