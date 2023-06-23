@@ -1,0 +1,46 @@
+//resolví este problema en discord con un compañero ya que falte la clase de explicación de como crear y multiplicar
+//de a varios arrays.
+
+int[,] array1 = new int[2, 2];
+int[,] array2 = new int[2, 2];
+int[,] producto = new int[2, 2];
+
+Console.WriteLine("Ingresar valores de primer array:");
+for (int i = 0; i < 2; i++)
+{
+    for (int j = 0; j < 2; j++)
+    {
+        Console.Write("Ingresar valores para la posición [{0},{1}]: ", i, j);
+        array1[i, j] = int.Parse(Console.ReadLine());
+    }
+}
+
+Console.WriteLine("Ingresar valores para la segunda array:");
+for (int i = 0; i < 2; i++)
+{
+    for (int j = 0; j < 2; j++)
+    {
+        Console.Write("Ingresar valores para la posición [{0},{1}]: ", i, j);
+        array2[i, j] = int.Parse(Console.ReadLine());
+    }
+}
+for (int i = 0; i < 2; i++)
+{
+    for (int j = 0; j < 2; j++)
+    {
+        producto[i, j] = 0;
+        for (int k = 0; k < 2; k++)
+        {
+            producto[i, j] += array1[i, k] * array2[k, j];
+        }
+    }
+}
+Console.WriteLine("El resultado del producto de las matrices es:");
+for (int i = 0; i < 2; i++)
+{
+    for (int j = 0; j < 2; j++)
+    {
+        Console.Write("{0} ", producto[i, j]);
+    }
+    Console.WriteLine();
+}
