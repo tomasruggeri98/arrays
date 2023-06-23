@@ -1,0 +1,15 @@
+int[,] arrays = new int[3, 3];
+
+arrays[0, 0] = 100;
+arrays[0, 1] = 74;
+arrays[0, 2] = 99;
+arrays[1, 0] = 11;
+arrays[1, 1] = 36;
+arrays[1, 2] = 68;
+arrays[2, 0] = 23;
+arrays[2, 1] = 9;
+arrays[2, 2] = 81;
+
+Console.WriteLine(arrays[0, 0] + " " + arrays[0, 1] + " " + arrays[0, 2]);
+Console.WriteLine(arrays[1, 0] + " " + arrays[1, 1] + " " + arrays[1, 2]);
+Console.WriteLine(arrays[2, 0] + " " + arrays[2, 1] + " " + arrays[2, 2]);
